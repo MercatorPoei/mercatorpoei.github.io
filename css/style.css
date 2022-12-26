@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    /* Définit la façon dont la hauteur et la largeur totale d'un élément est calculée.  */
+    box-sizing: border-box;
+}
+
+html,body{
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+div.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div.qrcode{
+    text-align: center;
+    width: 25%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px;
+    padding:15px;
+    box-shadow:0px 10px 26px 14px rgba(0,0,0,0.18) ;
+}
+
+
+div.qrcode img{
+    border-radius: 12px;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+
+div.qrcode p{
+    color:hsl(220, 15%, 55%);
+    padding-bottom: 25px;
+}
+
+div.qrcodetext{
+    padding:0px 20px;;
+}
+
+
+
+
+/*========TABLET=======*/
+@media screen and (max-width:1100px){
+    div.qrcode{
+        width:50%;
+    }
+}
+
+/*========MOBILE=======*/
+@media screen and (max-width:480px){
+    div.qrcode{
+        width:90%;
+    }
+}
