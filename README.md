@@ -4,6 +4,6 @@
 
 ![MERCATOR preview for the QR code component coding challenge](./design/mercator_desktop-preview.png)
 
-## Technologie utilisés
+## Technologies
 CSS from scratch
 
